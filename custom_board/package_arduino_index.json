@@ -9,7 +9,7 @@
       "platforms":
       [
         {
-          "name": "Arduino AVR Boards 1",
+          "name": "Arduino AVR Boards",
           "architecture": "avr",
           "version": "1.8.3",
           "category": "Arduino",
@@ -19,7 +19,7 @@
           "size": "4172677",
           "boards": [
             {
-              "name": "Arduino AVR Boards 1"
+              "name": "Arduino AVR roshan Boards 1"
             }
           ],
           "toolsDependencies":
