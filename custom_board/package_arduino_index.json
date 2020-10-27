@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+      {
+      "name": "arduino",
+      "maintainer": "Arduino LLC",
+      "websiteURL": "http://www.arduino.cc/",
+      "email": "packages@arduino.cc",
+      "platforms":
+      [
+        {
+          "name": "Arduino AVR Boards",
+          "architecture": "avr",
+          "version": "1.8.3",
+          "category": "Arduino",
+          "url": "https://github.com/roshanrobotics/arduinocustomboard.git",
+          "archiveFileName": "arduinocustomboard-main.zip",
+          "checksum": "SHA-256:FD9D56BFA9073DE1DEB659B54B65E1D1C5F64FB98525B6EBA5603C3E46D17E95",
+          "size": "4172677",
+          "boards": [
+            {
+              "name": "Arduino AVR Roshan Boards 1"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
